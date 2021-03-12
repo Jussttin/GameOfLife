@@ -33,7 +33,7 @@ public void draw () {
       }else{
         buffer[row][col] = false;
       }
-      buttons[row][col] = new Life(row, col);
+      buttons[row][col].draw();
   }
 }
   copyFromBufferToButtons();
